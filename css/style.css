@@ -16,16 +16,26 @@ margin:auto;
   clear:both;
 }
 /* /GENERAL COMMAND*/
-.menu {
-  background-color: violet;
-  height:100px;
-  margin-bottom: 2%;
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
 }
+.menu {
+  /* background-color: violet; */
+  height:100px;
+}
+
+#logo img {
+  display:block;
+  height: 100px;
+  width:auto;
+}
+
  /* BANNER */
 .banner{
   background-color: khaki;
   height: 500px;
-  margin-bottom: 2%;
+  margin: 2% 0;
 }
 /* /BANNER */
 
@@ -33,7 +43,6 @@ margin:auto;
 .content {
   background-color: dodgerblue;
   height: 650px;
-  margin-bottom: 1%;
 }
 
 .row {
@@ -62,4 +71,5 @@ margin:auto;
 footer {
   background-color: blueviolet;
   height: 50px;
+  margin-top: 1%
 }
