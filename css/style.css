@@ -91,7 +91,7 @@ a li:hover {
 }
 
 h1 {
-  font-family: arial;
+  font-family: Arial;
   font-size: 35px;
   margin-top:
 }
@@ -134,7 +134,6 @@ h3 {
   width:100%;
   object-fit: cover;
   border-radius: 8px;
-  height: 25vh;
 }
 .cut-overlay {
   height: 26vh;
@@ -145,7 +144,6 @@ h3 {
 
 .article-left, .article-center, .article-right {
   position: relative;
-  height: 50vh;
   float:left;
   margin-top: 1%;
   margin-bottom: 1%;
@@ -167,5 +165,5 @@ h3 {
 
 footer {
   text-align: center;
-  height: 5vh;
+  height: 4vh;
 }
