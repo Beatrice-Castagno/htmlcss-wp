@@ -32,7 +32,7 @@ body {
 
 #logo img{
   display:block;
-  height: 100px;
+  height: 10vh;
   width:auto;
   padding:1%;
   border-right: 1px solid lightgrey;
@@ -57,13 +57,49 @@ a li:hover {
 
 /* /INTESTAZIONE NAV */
 
- /* BANNER */
-.banner{
-  background-color: khaki;
-  height: 500px;
-  margin: 2% 0;
+ /* HERO */
+#hero{
+  margin: 1% 0;
+  border-radius: 8px;
 }
-/* /BANNER */
+.img-banner {
+  position: relative;
+  height: 60vh;
+  width:100%;
+  background-image: url("../img/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0,0,0,0.2);
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:2;
+  border-radius: 8px;
+}
+
+#text-banner {
+  position:absolute;
+  width:40%;
+  bottom:15%;
+  left:4%;
+  z-index: 3;
+}
+h2, #p-banner {
+  color: ghostwhite;
+}
+
+#p-banner {
+font-size: 14px;
+}
+/* /HERO */
 
 /* CONTENUTO ARTICOLI */
 .content {
