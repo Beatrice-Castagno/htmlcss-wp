@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 /* GENERAL COMMAND*/
-.container {
+#container {
 width:80%;
 margin:auto;
 }
@@ -16,6 +16,7 @@ margin:auto;
   clear:both;
 }
 /* /GENERAL COMMAND*/
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -55,10 +56,12 @@ a li:hover {
 /* /INTESTAZIONE NAV */
 
  /* HERO */
-#hero{
+
+#hero {
   margin: 2% 0;
 }
-.img-banner {
+
+#img-banner {
   position: relative;
   height: 60vh;
   width:100%;
@@ -82,10 +85,12 @@ a li:hover {
 
 }
 /* TEXT AND COLOR */
+
 .color-text {
   color:#929292;
 }
-h1{
+
+h1 {
   font-family: arial;
   font-size: 35px;
   margin-top:
@@ -98,6 +103,7 @@ h1{
   left:4%;
   z-index: 3;
 }
+
 h2, #p-banner {
   color: ghostwhite;
 }
@@ -113,13 +119,16 @@ h3 {
 /* /HERO */
 
 /* CONTENUTO ARTICOLI */
+
 .content {
   height: 80vh;
 }
-.row {
+#row {
   margin-bottom:1%;
 }
+
 /* PHOTO PROPRIETIES*/
+
 .photo-proprieties {
   height: 25vh;
   width:100%;
@@ -131,7 +140,9 @@ h3 {
   height: 26vh;
 }
 /* /PHOTO PROPRIETIES*/
+
 /* ARTICLES PROPRIETIES */
+
 .article-left, .article-center, .article-right {
   position: relative;
   height: 50vh;
@@ -149,9 +160,11 @@ h3 {
   margin-left: 1%;
   margin-right: 1%;
 }
+
 /* ARTICLES PROPRIETIES */
 
 /* /CONTENUTO ARTICOLI */
+
 footer {
   text-align: center;
   height: 5vh;
