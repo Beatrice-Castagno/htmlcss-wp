@@ -17,19 +17,45 @@ margin:auto;
 }
 /* /GENERAL COMMAND*/
 body {
-  background-color: white;
   font-family: 'Montserrat', sans-serif;
-}
-.menu {
-  /* background-color: violet; */
-  height:100px;
+  font-weight: bold;
 }
 
-#logo img {
+/* INTESTAZIONE NAV */
+.menu {
+  /* height:100px; */
+}
+
+#logo {
+  padding: 1% 0;
+}
+
+#logo img{
   display:block;
   height: 100px;
   width:auto;
+  padding:1%;
+  border-right: 1px solid lightgrey;
 }
+
+.links ul li {
+padding: 1%;
+text-transform: uppercase;
+display: inline-block;
+list-style-type: none;
+color:#929292;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+a li:hover {
+  background-color: ghostwhite;
+  color:black;
+}
+
+/* /INTESTAZIONE NAV */
 
  /* BANNER */
 .banner{
